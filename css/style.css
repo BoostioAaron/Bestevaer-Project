@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/*   Navigatie bar. */
+
+.topnav {
+  background-color: #102e4a;
+  overflow: hidden;
+  height: 75px;
+}
+
+.topnav a {
+  background-color: #715aff;
+  margin-left: 51px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 65px;
+  text-decoration: none;
+  font-size: 17px;
+  box-shadow: 1px 1px 1px 1px#0D1230;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  margin-right: 15px;
+  background-color: #715aff;
+  color: white;
+}
+#logo {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  height: 75px;
+  width: 250px;
+}
+
+/*   Navigatie bar. */
+
+/* achtergrond */
+
+.Achtergrondcontainer {
+  background-image: url("../image/Achtergrond.png");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 92.3vh;
+}
+/* achtergrond */
+
+/* html forms */
+
+#htmlforms {
+  background-color: #102e4a;
+  width: 841px;
+  height: 412px;
+  left: 540px;
+  position: absolute;
+  top: 20%;
+  border-radius: 5%;
+}
+
+.td-center {
+  text-align: center;
+}
+
+#BerekenButton {
+  width: 200px;
+  height: 40px;
+  border-radius: 5%;
+  background-color: rgb(170, 169, 169);
+}
+#BerekenButton:hover {
+  background-color: gray;
+}
+
+#TextForms {
+  color: #495057;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Formsitems {
+  text-align: center;
+}
+
+.LabelForms {
+  color: rgb(197, 197, 197);
+  text-align: right;
+  margin-right: 5px;
+}
+
+#Seizoenen {
+  width: 200px;
+  border-radius: 5%;
+  height: 33px;
+  margin: 1px;
+}
+
+#Watersoort {
+  width: 200px;
+  border-radius: 5%;
+  height: 33px;
+  margin: 1px;
+}
+
+#SchipOi {
+  width: 200px;
+  border-radius: 5%;
+  height: 33px;
+  margin: 1px;
+}
+
+#Gewichtbox {
+  width: 200px;
+  border-radius: 5%;
+  height: 33px;
+  margin: 1px;
+}
+
+#ladingid {
+  width: 200px;
+  border-radius: 5%;
+  height: 33px;
+  margin: 1px;
+}
+
+#LadingOpditmomentMomentID {
+  width: 200px;
+  border-radius: 5%;
+  height: 33px;
+  margin: 2px;
+}
+
+.schepenFotos {
+  float: left;
+  margin-left: 50px;
+  margin-top: 575px;
+  border-radius: 25%;
+  height: 275px;
+}
+
+/* html forms */
+
+.FormTable .labelTD {
+  text-align: right;
+  padding: 7px;
+}
+
+/* Results  */
+.myresult {
+  width: 200px;
+  height: 200px;
+  background-color: #123a5f;
+  margin: 5px;
+  padding: 5px;
+}
+#ResultDingetje {
+  margin-bottom: 400px;
+  margin-left: 200px;
+}
+
+#resultaat {
+  color: gray;
+}
+
+/* Results  */
+
+/* Contact  */
+
+.ZwarteachtergrondContact {
+  width: 100%;
+  height: 550px;
+  background-color: #0b090a;
+}
+
+.ContactWrapper {
+  width: 100%;
+  height: 344px;
+  background-color: #161a1d;
+}
+
+#Contacttitle {
+  text-align: center;
+  color: white;
+  top: 5%;
+}
+
+#Email {
+  text-align: center;
+  color: white;
+}
+
+#Socialmedia {
+  text-align: center;
+  color: white;
+}
+
+/* social media in contact */
+.SocialMediaWrapper {
+  border-bottom: solid 4px #0b090a;
+  margin-top: 20px;
+  height: 200px;
+  width: 315px;
+  float: left;
+  margin-left: 25%;
+}
+
+/* social media in contact */
+
+/* email in contact */
+.EmailWrapper {
+  border-bottom: solid 4px #0b090a;
+  margin-top: 20px;
+  margin-top: 20px;
+  height: 200px;
+  width: 315px;
+  margin-left: 25%;
+  float: left;
+}
+
+/* email in contact */
+
+#ContactText {
+  float: left;
+}
+
+/* Contact   */
+
+/* Home pagina */
+#HomepaginaText {
+  margin: 10px;
+  text-align: center;
+}
+
+.achtergrondHome {
+  background-image: url("../image/HomepaginaAchtergrond.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 894px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textAreaHome {
+  width: 800px;
+  height: 800px;
+  border-radius: 5%;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(218, 218, 218);
+}
+
+#GeanimeerdetextHome {
+  text-align: Center;
+}
+
+/* Home pagina */
+
+/* icons */
+#iconCustomization {
+  font-size: 30px;
+  margin-left: 5px;
+  color: white;
+  float: left;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+/* icons */
