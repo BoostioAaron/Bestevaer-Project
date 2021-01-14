@@ -1,11 +1,13 @@
 <?php
+
+include "includes/dbconnect.php";
+
 $gewicht = $_GET["gewicht"];
 $water = $_GET["zoutZoet"];
 $seizoen = $_GET["seizoenen"];
 $lading = $_GET["lading"];
 $schip = $_GET["schip"];
 $LadingopDitmoment = $_GET["LadingOpditmomentMomentID"]; 
-
 
 
 $schepen = array("NSANGELA", "LUCKYSTAR", "SABRINA","HERMES","TRIUMPHIV");

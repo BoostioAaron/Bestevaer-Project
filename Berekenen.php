@@ -105,7 +105,10 @@
 </form>
 </div>
 </div>
+   
     
+    
+
     
     <a href="https://www.myshiptracking.com/vessels/ns-angela-mmsi-214182759-imo-9071076"><img src="image/NS_ANGELASchip.jpg" class="schepenFotos" alt="NSANGELA" width="325" height="275"></a>
     <a href="https://www.myshiptracking.com/vessels/lucky-star-mmsi-214182775-imo-0"><img src="image/LUCKY_STARSchip.jpg" class="schepenFotos" alt="NSANGELA" width="325" height="275"></a>
