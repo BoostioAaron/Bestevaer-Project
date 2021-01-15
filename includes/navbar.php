@@ -4,7 +4,15 @@
   <a href="Berekenen.php">Berekenen</a>
   <a href="Contact.php">Neem contact op</a>
   <a href="onzeSchepen.php">Onze Schepen</a>
-  <a href="login.php">login</a>
-  <a href="signup.php">Sign up</a>
+  <?php
+  if(isset($_SESSION["useruid"])){
+    echo"<a href='signup.php'>logout</a>";
+  }
+  else{
+    echo" <a href='login.php'>login</a>";
+    echo" <a href='signup.php'>Sign up</a>";
+  }
+  ?>
+ 
 
 </div>
