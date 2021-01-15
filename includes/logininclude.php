@@ -2,13 +2,13 @@
 
 if(isset($_POST["submit"])){
 
-    $username = $_POST["uid"];
-    $password = $_POST["pwd"];
+    $username = $_POST["uidd"];
+    $password = $_POST["pwdd"];
 
     require_once 'dbconnectlogin.php';
     require_once 'functionsinclude.php';
 
-    if(emptyInputLogin($name, $password) !== false){
+    if(emptyInputLogin($username, $password) !== false){
         header("location: ../login.php?error=emptyinput");
         exit();
     }

@@ -10,8 +10,8 @@
 
 
  <form action="includes/logininclude.php" method="post">
- <input type="text" name="uid" placeholder="Username/Email..." ></input>
- <input type="password" name="pwd" placeholder="Password..." ></input>
+ <input type="text" name="uidd" placeholder="Username/Email..." ></input>
+ <input type="password" name="pwdd" placeholder="Password..." ></input>
 <button type="submit" name="submit">Login</button>
 </form>
 <?php

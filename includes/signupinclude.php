@@ -35,7 +35,7 @@ if(uidExists($conn, $username, $email) !== false){
     exit();
 }
 
-createUser($conn, $name, $email, $username, $password, $passwordConfirm);
+createUser($conn, $name, $email, $password);
 
 
 
