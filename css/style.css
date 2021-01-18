@@ -264,8 +264,137 @@
 #GeanimeerdetextHome {
   text-align: Center;
 }
+/* home pagina */
 
-/* Home pagina */
+/* Login */
+#login-wrapper {
+  width: 350px;
+  height: 400px;
+  background-color: #e6e6e6;
+  border-radius: 3%;
+  box-shadow: 1px 1px gray;
+  margin-top: 5%;
+  margin-left: 43%;
+  margin-right: 50%;
+  border: solid 1px #e6e6e6;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: 0 0 0 2px #cccccc;
+}
+
+#titelLogin {
+  margin-top: 5px;
+}
+
+#formitemslogin {
+  text-align: center;
+  float: left;
+}
+
+.logininput {
+  margin-top: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 5%;
+  border: solid 1px #707070;
+  border-radius: 12px;
+  outline: none;
+  box-shadow: 0 0 0 2px #e6e6e6;
+  text-align: center;
+}
+
+#idonthaveaccountlink {
+  text-align: center;
+  color: gray;
+}
+
+#submitknop-login {
+  width: 200px;
+  margin: 10px;
+  height: 35px;
+  background-color: #715aff;
+  border-radius: 12px;
+  border: solid #715aff;
+  box-shadow: 0 0 0 1px #715aff;
+  outline: none;
+}
+
+#errorLogin {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* login */
+
+/* signup */
+
+#errorSignup {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#signup-wrapper {
+  width: 350px;
+  height: 450px;
+  background-color: #e6e6e6;
+  border-radius: 3%;
+  box-shadow: 1px 1px gray;
+  margin-top: 5%;
+  margin-left: 43%;
+  margin-right: 50%;
+  border: solid 1px #e6e6e6;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: 0 0 0 2px #cccccc;
+}
+
+#titelSignup {
+  margin-top: 5px;
+}
+
+#formitemsSignup {
+  text-align: center;
+  float: left;
+}
+
+.signupinput {
+  margin-top: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 5%;
+  border: solid 1px #707070;
+  border-radius: 12px;
+  outline: none;
+  box-shadow: 0 0 0 2px #e6e6e6;
+  text-align: center;
+}
+
+#iHaveAnAccountlink {
+  text-align: center;
+  color: gray;
+}
+
+#submitknop-signup {
+  width: 200px;
+  margin: 10px;
+  height: 35px;
+  background-color: #715aff;
+  border-radius: 12px;
+  border: solid #715aff;
+  box-shadow: 0 0 0 1px #715aff;
+  outline: none;
+}
+
+/*signup */
+
+/* home pagina */
+#mijnschepenwrapper {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+/* home pagina */
 
 /* icons */
 #iconCustomization {
