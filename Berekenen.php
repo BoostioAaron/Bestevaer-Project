@@ -39,11 +39,11 @@
         </td>
         <td>
             <select name="schip" id="SchipOi">
+                <option value="Hermes">Hermes</option>
                 <option value="NSANGELA">NSANGELA</option>
-                <option value="LUCKYSTAR">LUCKYSTAR</option>
-                <option value="SABRINA">SABRINA</option>
-                <option value="HERMES">HERMES</option>
-                <option value="TRIUMPHIV">TRIUMPHIV</option>
+                <option value="LuckyStar">LuckyStar</option>
+                <option value="Triumph">Triumph</option>
+                <option value="Sabrina">Sabrina</option>
             </select> 
         </td>    
     </tr>
