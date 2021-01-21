@@ -264,6 +264,12 @@
 #GeanimeerdetextHome {
   text-align: Center;
 }
+
+#Hellothereifloggedin {
+  font-size: 20px;
+  text-align: center;
+}
+
 /* home pagina */
 
 /* Login */
@@ -387,24 +393,44 @@
 
 /*signup */
 
-/* home pagina */
-#mijnschepenwrapper {
-  width: 100px;
-  height: 100px;
-  background-color: gray;
-}
-
-/* home pagina */
-
 /* Onze schepen */
-
-.Schepen {
-  float: left;
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
+.flex-container > div {
+  background-color: slategrey;
+  width: 400px;
+  height: 800px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-radius: 25px;
+  border: solid white 3px;
+}
+.tekstSchepenBox {
+  font-weight: 900;
+  font-size: 3.5em;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: 50px;
+  float: center;
+  text-shadow: #474747 3px 5px 2px;
+  text-align: center;
+  margin: 10px;
+}
+.infoButton {
+  border: solid 2px white;
+  height: 50px;
+  width: 200px;
+  color: white;
+  background-color: lightseagreen;
+  cursor: pointer;
+  border-radius: 25px;
+}
 /* Onze schepen */
 
 /* icons */
