@@ -22,7 +22,7 @@ if (mysqli_num_rows($resultDWT) > 0){
 $sqlGT = "SELECT GT FROM schepen";
 $resultGT = mysqli_query($conn, $sqlGT);
 $laadruimte = array();
-if (mysqli_num_rows($resultnaam) > 0){
+if (mysqli_num_rows($resultGT) > 0){
     while($row = mysqli_fetch_assoc($resultGT)){
         $laadruimte[] = $row['GT'];
         
