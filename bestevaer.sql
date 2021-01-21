@@ -1,25 +1,24 @@
--- phpMyAdmin SQL Dump
--- version 5.0.2
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Gegenereerd op: 15 jan 2021 om 14:35
--- Serverversie: 10.4.14-MariaDB
--- PHP-versie: 7.2.33
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
 -- Database: `bestevaer`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `contact`
+--
+
+CREATE TABLE `contact` (
+  `naam` varchar(50) DEFAULT NULL,
+  `achternaam` varchar(50) NOT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `vraag` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -42,7 +41,7 @@ CREATE TABLE `schepen` (
 
 INSERT INTO `schepen` (`imono`, `naam`, `DWT`, `GT`, `volume`, `afbeelding`) VALUES
 (9071052, 'Hermes', 5809, 3806, 6633.9, NULL),
-(9071076, 'NS ANGELA', 5714, 3806, 6633.9, NULL),
+(9071076, 'NSANGELA', 5714, 3806, 6633.9, NULL),
 (9123506, 'LuckyStar', 6800, 4178, 7527.7, NULL),
 (9311555, 'Triumph', 7150, 4039, 8189.1, NULL),
 (9414735, 'Sabrina', 10030, 6278, 12594.9, NULL);
@@ -66,14 +65,20 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`usersId`, `usersName`, `usersEmail`, `usersUid`, `usersPwd`) VALUES
-(1, 'Aaron', 'aaron.laan@gmail.nl', 'Aaron', '$2y$10$P8X9725DkfUExRVgRq0sy.UiwzVtQ4r8OjyycB15ofMZonG8hzk1y'),
-(2, 'Boostio', 'aj-laan@hotmail.nl', 'Boostio', '$2y$10$PkeLOa.2H.vOeaIQ7pX9V.HuQaodBYo7WKoerQeKURDYYbi03HzHK'),
-(3, 'boost', 'aj-laan@gmail.nl', 'boost', '$2y$10$o/TFvjo4ZC19Rx8spPHUyOY6xNVHndbV2m6X6C0jWrE353Hagj2Ty'),
-(4, 'Aaronboostio', 'aaron.laan@gmail.com', 'Aaronboostio', '$2y$10$jM0pgmnFfgA7foOwQtkncOU1SrvNwGwaEsnoGmah4ZlM/yNdBFUKa');
+(1, 'Aaron', 'aaron.laan@gmail.com', 'Aaron', '$2y$10$AYTiE/VXfJvCUF01qAfyge/BUcng6ST48kbA4wguC5fbHQHE1qO5W'),
+(2, 'Lars Hekelaar', 'larshekelaar@gmail.com', 'Lars Hekelaar', '$2y$10$qwM5gNV8Amy..uOz9E04KuFuRNn8cMWTAvwbBSCPVGt2u8rb3Y83a'),
+(3, 'Yann', 'Yann@gmail.com', 'Yann', '$2y$10$oYPCB.vYsNq3UAKNP1zYleKFe3DWfrW4X2QWwv3/azTE5ESlBPo1O'),
+(4, 'Boostio', 'Boostio@gmail.com', 'Boostio', '$2y$10$I/UbC.OAC6OjbE1u3v1TBuMfZGSEEyhR4UnlIzbIkAuzSPwFYh.gG');
 
 --
 -- Indexen voor geëxporteerde tabellen
 --
+
+--
+-- Indexen voor tabel `contact`
+--
+ALTER TABLE `contact`
+  ADD PRIMARY KEY (`achternaam`);
 
 --
 -- Indexen voor tabel `schepen`
@@ -96,9 +101,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT voor een tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `usersId` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `usersId` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+

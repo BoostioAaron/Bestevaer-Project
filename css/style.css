@@ -396,6 +396,17 @@
 
 /* home pagina */
 
+/* Onze schepen */
+
+.Schepen {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+/* Onze schepen */
+
 /* icons */
 #iconCustomization {
   font-size: 30px;
