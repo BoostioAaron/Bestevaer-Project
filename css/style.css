@@ -462,6 +462,19 @@
 }
 #infovanschepenitems {
   text-align: center;
+  color: white;
+}
+
+.onzeschepenknop {
+  width: 200px;
+  margin: 10px;
+  height: 35px;
+  background-color: #715aff;
+  border-radius: 12px;
+  border: solid #715aff;
+  box-shadow: 0 0 0 1px #715aff;
+  outline: none;
+  float: left;
 }
 
 /* Onze schepen */
