@@ -10,57 +10,38 @@
  <body>
  <main>
 
+ <div id="knoppeninfowrapper">
+<div id="knoppeninfoitems">
+ <form action="" method="post">  
+ <input type="submit" id="Hermesbtn" name="Hermesbtn" value="Hermes"><form>
+ <form action="" method="post">  
+ <input type="submit" id="nsangelabtn" name="nsangelabtn" value="nsangela"><form>
 
- <div class="flex-container">
-  <div>
-  <h1 class="tekstSchepenBox">Hermes</h1>
-        <img src="image/HermsSchip.jpg" style="width:100%; height:200px; border-radius:25px; margin-top:100px;" >
-  <button class="infoButton"><i class="fas fa-file-alt"></i> See Info</button>
-    <div>
-    info vanuit database
-    </div>
-  </div>
-  <div>
-  <h1 class="tekstSchepenBox">Lucky</h1>
-  <img src="image/LUCKY_STARSchip.jpg" style="width:100%; height:200px; border-radius:25px; margin-top:100px;" >
-  <button class="infoButton"><i class="fas fa-file-alt"></i> See Info</button>
-    <div>
-        info vanuit database
-    </div>
-  </div>
-  <div>
-  <h1 class="tekstSchepenBox">NS Angela</h1>
-  <img src="image/NS_ANGELASchip.jpg" style="width:100%; height:200px; border-radius:25px; margin-top:100px;" >
-  <button class="infoButton"><i class="fas fa-file-alt"></i> See Info</button>
-    <div>
-    info vanuit database
-    </div>
-  </div>
-  <div>
-     <h1 class="tekstSchepenBox">Sabrina</h1>
-     <img src="image/SABRINASchip.jpg" style="width:100%; height:200px; border-radius:25px; margin-top:100px;" >
-  <button class="infoButton"><i class="fas fa-file-alt"></i> See Info</button>
-        <div>
-        info vanuit database
-        </div>
-  </div>
-  <div>
-  <h1 class="tekstSchepenBox">Triumph</h1>
-  <img src="image/TRIUMPHIVSchip.jpg" style="width:100%; height:200px; border-radius:25px; margin-top:100px;" >
-  <button class="infoButton"><i class="fas fa-file-alt"></i> See Info</button>
-        <div>
-        info vanuit database
-        </div>
-  </div>
+ <form action="" method="post">  
+ <input type="submit" id="luckystarbtn" name="luckystarbtn" value="luckystar"><form>
+
+ <form action="" method="post">  
+ <input type="submit" id="triumphbtn" name="triumphbtn" value="triumph"><form>
+
+ <form action="" method="post">  
+ <input type="submit" id="sabrinabtn" name="sabrinabtn" value="sabrina"><form>
+ </div>  
 </div>
-
-</main>
-
  </main>
 
+ <div id="infovanschepen">
+  
+ <div id="infovanschepenitems">
+ <?php
+ require_once "includes/Infobutton.php";
+?>
+ </div>
+</div>
 
  </body>
-  
+  </html>
+
+
 
 
 

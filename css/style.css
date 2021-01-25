@@ -205,6 +205,57 @@
   color: white;
 }
 
+#contactvraagwrapper {
+  width: 350px;
+  height: 400px;
+  background-color: #e6e6e6;
+  border-radius: 3%;
+  box-shadow: 1px 1px gray;
+  margin-top: 2%;
+  margin-left: 41%;
+  margin-right: 50%;
+  border: solid 1px #e6e6e6;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: 0 0 0 2px #cccccc;
+}
+
+#contactitems {
+  text-align: center;
+}
+#Vraag {
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 5%;
+  border: solid 1px #707070;
+  border-radius: 12px;
+  outline: none;
+  box-shadow: 0 0 0 2px #e6e6e6;
+  text-align: center;
+}
+
+#Opslaan {
+  width: 200px;
+  margin: 10px;
+  height: 35px;
+  background-color: #715aff;
+  border-radius: 12px;
+  border: solid #715aff;
+  box-shadow: 0 0 0 1px #715aff;
+  outline: none;
+}
+.contactinputs {
+  margin-top: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 5%;
+  border: solid 1px #707070;
+  border-radius: 12px;
+  outline: none;
+  box-shadow: 0 0 0 2px #e6e6e6;
+  text-align: center;
+}
+
 /* social media in contact */
 .SocialMediaWrapper {
   border-bottom: solid 4px #0b090a;
@@ -394,43 +445,25 @@
 /*signup */
 
 /* Onze schepen */
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
+
+#infovanschepen {
+  width: 600px;
+  height: 600px;
+  background-color: #102e4a;
+  border-radius: 3%;
+  box-shadow: 1px 1px gray;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 48%;
+  border: solid 1px #e6e6e6;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: 0 0 0 2px #cccccc;
+}
+#infovanschepenitems {
+  text-align: center;
 }
 
-.flex-container > div {
-  background-color: slategrey;
-  width: 400px;
-  height: 800px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  border-radius: 25px;
-  border: solid white 3px;
-}
-.tekstSchepenBox {
-  font-weight: 900;
-  font-size: 3.5em;
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bolder;
-  font-size: 50px;
-  float: center;
-  text-shadow: #474747 3px 5px 2px;
-  text-align: center;
-  margin: 10px;
-}
-.infoButton {
-  border: solid 2px white;
-  height: 50px;
-  width: 200px;
-  color: white;
-  background-color: lightseagreen;
-  cursor: pointer;
-  border-radius: 25px;
-}
 /* Onze schepen */
 
 /* icons */

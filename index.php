@@ -13,9 +13,11 @@
   
         <h1 id="GeanimeerdetextHome" class="ml3">Over deze Website</h1>
         <?php
+  /* Als je bent ingelogd komt er een Textje Welkom *Username*   */
     if (isset($_SESSION["useruid"])) {
     echo "<h2 id='Hellothereifloggedin'>Hello there, " . $_SESSION["useruid"] . "!</h2>";
     }
+  /* Als je bent ingelogd komt er een Textje Welkom *Username*   */
 ?>
         <p id="HomepaginaText">
        Welkom bij bestevaer Wij zijn een website. die helpt met het berekenen van het gewicht. En groote van goederen.Op een schip.

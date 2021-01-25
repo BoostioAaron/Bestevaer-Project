@@ -10,13 +10,15 @@
 <main>
 
 <div class="ZwarteachtergrondContact">
-<h1 id="Contacttitle"> Contact</h1>
+<h1 id="Contacttitle"> Contact form</h1>
  
+<div id="contactvraagwrapper">
+<div id="contactitems">
 
 <form action="includes/actionContact.php" method="post">
-<input type="text" class="" id="voornaamContact" name="voornaam" placeholder="Naam..."> <br><br>
-<input type="text" class="" id="achternaamContact" name="achternaam" placeholder=" achternaam..."> <br><br>
-<input type="text" class="" id="EmailContact" name="Email" placeholder=" Email..."> <br><br>
+<input type="text" class="contactinputs" id="voornaamContact" name="voornaam" placeholder="Naam..."> <br><br>
+<input type="text" class="contactinputs" id="achternaamContact" name="achternaam" placeholder=" achternaam..."> <br><br>
+<input type="text" class="contactinputs" id="EmailContact" name="Email" placeholder=" Email..."> <br><br>
 <textarea placeholder="Vraag" id="Vraag" name="Vraag" rows="4" cols="50"></textarea> <br>
 <input type="submit" id="Opslaan" name="Opslaan"  value="Opslaan" placeholder=" Opslaan..."> <br>
  </form>
@@ -39,9 +41,10 @@ if($_GET["contactError"] == "Invalidemail"){
 
 
  ?>
-
-
 </div>
+</div>
+</div>
+
 <div class="ContactWrapper">
 
 <div class="EmailWrapper">
