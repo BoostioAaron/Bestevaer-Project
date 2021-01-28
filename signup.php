@@ -21,6 +21,7 @@
 <a id="iHaveAnAccountlink" href="login.php">I already have an account</a>
 </form>
 
+<!--Error Messages-->
  <div id="errorSignup">
 <?php
 if(isset($_GET["error"])){
@@ -44,6 +45,7 @@ if(isset($_GET["error"])){
     }
 }
 ?>
+<!--Error Messages-->
   </div>
  </div>
 </div>

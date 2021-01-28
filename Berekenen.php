@@ -109,13 +109,13 @@
     
     
 
-    
+    <!--Plaatjes van schepen met link-->
     <a href="https://www.myshiptracking.com/vessels/ns-angela-mmsi-214182759-imo-9071076"><img src="image/NS_ANGELASchip.jpg" class="schepenFotos" alt="NSANGELA" width="325" height="275"></a>
     <a href="https://www.myshiptracking.com/vessels/lucky-star-mmsi-214182775-imo-0"><img src="image/LUCKY_STARSchip.jpg" class="schepenFotos" alt="NSANGELA" width="325" height="275"></a>
     <a href="https://www.myshiptracking.com/vessels/sabrina-mmsi-636013067-imo-0"><img src="image/SABRINASchip.jpg" class="schepenFotos" alt="NSANGELA" width="325" height="275"></a>
     <a href="https://www.myshiptracking.com/vessels/hermes-mmsi-214182786-imo-0"><img src="image/HermsSchip.jpg" class="schepenFotos" alt="NSANGELA" width="325" height="275"></a>
     <a href="https://www.myshiptracking.com/vessels/triumph-iv-mmsi-214182719-imo-0"><img src="image/TRIUMPHIVSchip.jpg" class="schepenFotos" alt="NSANGELA" width="325" height="275"></a>
-   
+    <!--Plaatjes van schepen met link-->
  </div>
 
  

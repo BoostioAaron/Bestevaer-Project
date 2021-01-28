@@ -21,9 +21,9 @@
 
 </form>
  
+<!--Error Messages-->
  <div id="errorLogin">    
 <?php
-
 if(isset($_GET["error"])){
     if($_GET["error"] == "emptyinput"){
         echo"<p>Fill in all fields!</p>";
@@ -36,6 +36,7 @@ if(isset($_GET["error"])){
     }
 }
 ?>
+<!--Error Messages-->
   </div> 
  </div>
 </div>
